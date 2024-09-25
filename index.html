@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Арсенал</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&family=Nanum+Gothic+Coding:wght@400;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__wrapper">
+                <ul class="menu">
+                    <li class="menu__link">
+                        <a href="#">Главная</a>
+                    </li>
+                    <li class="menu__link menu__link_dropdown">Пиво
+                        <div class="menu__dropdown">
+                            <a href="#">Фасованное пиво</a>
+                            <a href="#">Разливное пиво</a>
+                            <a href="#">Сорта пива</a>
+                        </div>
+                    </li>
+                    <li class="menu__link">Напитки</li>
+                    <li class="menu__link menu__link_dropdown">Вино
+                        <div class="menu__dropdown">
+                            <a href="#">Напитки</a>
+                            <a href="#">Категории</a>
+                        </div>
+                    </li>
+                    <li class="menu__link">Дижестивы </li>
+                    <li class="menu__link menu__link_dropdown">Избранное
+                        <div class="menu__dropdown">
+                            <button class="button" type="button">Очистить избранное</button>
+                        </div>
+                    </li>
+                </ul>
+                <div class="header__burger">
+                    <span></span>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <section class="content">
+                    <div class="main-images">
+                        <img src="arsenal.png" width="200" height="200" alt="Лого Арсенал">
+                        <img src="brewlogo.png" width="200" height="200" alt="Лого Brew">
+                    </div>
+                    <ul class="content-list">
+                        <li class="content-list__item">
+                            <a href="#">Сорта</a>
+                        </li>
+                        <li class="content-list__item">
+                            <a href="#">Разливное пиво</a>
+                        </li>
+                        <li class="content-list__item">
+                            <a href="#">Фасованное пиво</a>
+                        </li>
+                        <li class="content-list__item">
+                            <a href="#">Вкусы</a>
+                        </li>
+                        <li class="content-list__item">
+                            <a href="#">Школа пивоварения</a>
+                        </li>
+                        <li class="content-list__item">
+                            <a href="#">Напитки</a>
+                        </li>
+                        <li class="content-list__item">
+                            <a href="#">Вино</a>
+                        </li>
+                        <li class="content-list__item">
+                            <a href="#">Дижестивы</a>
+                        </li>
+                        <li class="content-list__item">
+                            <a href="#">Избранное</a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div class="container">
+                <span>Браузер Chrome 128.0.0.0</span>
+            </div>
+        </footer>
+    </div>
+
+    <script src="burger.js"></script>
+    <script src="dropdown.js"></script>
+</body>
+
+</html>
